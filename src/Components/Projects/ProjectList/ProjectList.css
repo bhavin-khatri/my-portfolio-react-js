@@ -1,0 +1,122 @@
+/* YourComponentStyles.css */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(50px); /* Optional: Slide up effect */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.projectItemView {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding-bottom: 20px;
+  background-color: #1e1e1e;
+}
+
+.projectItemColumnView {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 30px;
+  border: 1px solid #3c3c3c;
+  align-items: center;
+  padding: 30px;
+  margin: 10px;
+  flex: 0 0 calc(25.5% - 20px); /* Adjust for 3 items per row */
+  max-width: calc(25.5% - 20px); /* Adjust for 3 items per row */
+  animation: fadeIn 0.5s ease forwards; /* Apply the animation */
+  opacity: 0; /* Initially hide the items */
+}
+
+.projectImageView {
+  height: 120px;
+  width: 120px;
+  border-radius: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.projectTitle {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 30px;
+  color: white;
+}
+
+.selectedProjectMainView{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 30px;
+  border: 1px solid #3c3c3c;
+  padding: 30px;
+  margin: 30px 30px 30px 0px;
+  background-color: #1e1e1e;
+}
+
+.rowView{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.selectedProjectImageView {
+  height: 120px;
+  width: 120px;
+  border-radius: 10px;
+}
+.lineView{
+  border-left: 1px solid #3c3c3c ;
+  height: 140px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.columnView{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex: 1;
+}
+
+.projectDescription{
+  font-size: 14px;
+  line-height: 20px;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.screenLayoutMain{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.screenLayoutImage{
+  height: 120px;
+  width: 120px;
+  border-radius: 20px;
+}
+.screenLayouts{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding-bottom: 20px;
+}
+.screenLayoutColumn{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  margin-right: 10px;
+}
+

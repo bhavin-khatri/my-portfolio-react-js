@@ -1,0 +1,28 @@
+.navbar {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+}
+.categoryItemView {
+  flex-direction: row;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid;
+  margin: 10px;
+  border-radius: 25px;
+}
+.categoryTitle {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.categoryImage {
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
+}

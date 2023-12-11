@@ -1,7 +1,15 @@
 export default {
-  ic_coffee_cup:require("../images/coffee_cup.png"),
-  ic_indian_flag:require("../images/indian_flag.png"),
-  ic_linkedin:require("../images/linkedin.png"),
-  ic_bk:require("../images/bk.jpeg"),
-  ic_github:require("../images/github.png")
+  ic_coffee_cup: require('../images/coffee_cup.png'),
+  ic_indian_flag: require('../images/indian_flag.png'),
+  ic_linkedin: require('../images/linkedin.png'),
+  ic_profile_pic: require('../images/bk.jpeg'),
+  ic_github: require('../images/github.png'),
+  ic_phone: require('../images/phone.png'),
+  ic_phone2: require('../images/phone2.png'),
+  ic_resume: require('../images/resume.png'),
+  ic_resume_white: require('../images/resume_white.png'),
+  ic_resume_dark: require('../images/resume_dark.png'),
+  ic_project_dark: require('../images/project_dark.png'),
+  ic_project_white: require('../images/project_white.png'),
+  ic_project_one: require('../images/project_one.png'),
 }
